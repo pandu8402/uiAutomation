@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Tests]">
+  <test name="TC001_VerifyLoginwithValidCredentials(failed)">
+    <classes>
+      <class name="com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="verifyFinancialsMenu"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials -->
+    </classes>
+  </test> <!-- TC001_VerifyLoginwithValidCredentials(failed) -->
+</suite> <!-- Failed suite [Smoke Tests] -->

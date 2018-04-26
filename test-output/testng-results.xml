@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Tests" duration-ms="19980" started-at="2018-04-26T14:20:11Z" finished-at="2018-04-26T14:20:31Z">
+    <groups>
+    </groups>
+    <test name="TC001_VerifyLoginwithValidCredentials" duration-ms="19980" started-at="2018-04-26T14:20:11Z" finished-at="2018-04-26T14:20:31Z">
+      <class name="com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials@757942a1]" name="launchBrowser" is-config="true" duration-ms="10880" started-at="2018-04-26T10:20:11Z" finished-at="2018-04-26T10:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials@757942a1]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2018-04-26T10:20:22Z" finished-at="2018-04-26T10:20:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials.verifyLoginwithInvalidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginwithInvalidCredentials()[pri:1, instance:com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials@757942a1]" name="verifyLoginwithInvalidCredentials" duration-ms="4050" started-at="2018-04-26T10:20:22Z" finished-at="2018-04-26T10:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials@757942a1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-26T10:20:26Z" finished-at="2018-04-26T10:20:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginwithInvalidCredentials status=SUCCESS method=TC001_VerifyLoginwithValidCredentials.verifyLoginwithInvalidCredentials()[pri:1, instance:com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyFinancialsMenu()[pri:2, instance:com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials@757942a1]" name="verifyFinancialsMenu" duration-ms="3419" started-at="2018-04-26T10:20:26Z" finished-at="2018-04-26T10:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinancialsMenu -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials@757942a1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-26T10:20:26Z" finished-at="2018-04-26T10:20:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials.verifyFinancialsMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials@757942a1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-26T10:20:30Z" finished-at="2018-04-26T10:20:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFinancialsMenu status=SUCCESS method=TC001_VerifyLoginwithValidCredentials.verifyFinancialsMenu()[pri:2, instance:com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials@757942a1]" name="endTest" is-config="true" duration-ms="1596" started-at="2018-04-26T10:20:30Z" finished-at="2018-04-26T10:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.automation.uiAutomation.LoginPage.TC001_VerifyLoginwithValidCredentials -->
+    </test> <!-- TC001_VerifyLoginwithValidCredentials -->
+  </suite> <!-- Smoke Tests -->
+</testng-results>
